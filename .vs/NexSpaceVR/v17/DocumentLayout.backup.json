@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "D:\\Repositories\\NexSpaceVR\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{75701607-AF8C-BFFC-B092-2DBE772BC3E5}|Assembly-CSharp.csproj|D:\\Repositories\\NexSpaceVR\\assets\\scripts\\buildingspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{75701607-AF8C-BFFC-B092-2DBE772BC3E5}|Assembly-CSharp.csproj|d:\\repositories\\nexspacevr\\assets\\scripts\\carmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75701607-AF8C-BFFC-B092-2DBE772BC3E5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\carmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75701607-AF8C-BFFC-B092-2DBE772BC3E5}|Assembly-CSharp.csproj|d:\\repositories\\nexspacevr\\assets\\scripts\\buildingspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{75701607-AF8C-BFFC-B092-2DBE772BC3E5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\buildingspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{75701607-AF8C-BFFC-B092-2DBE772BC3E5}|Assembly-CSharp.csproj|D:\\Repositories\\NexSpaceVR\\assets\\scripts\\infiniteroadmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{75701607-AF8C-BFFC-B092-2DBE772BC3E5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\infiniteroadmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{75701607-AF8C-BFFC-B092-2DBE772BC3E5}|Assembly-CSharp.csproj|d:\\repositories\\nexspacevr\\assets\\scripts\\carmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{75701607-AF8C-BFFC-B092-2DBE772BC3E5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\carmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{75701607-AF8C-BFFC-B092-2DBE772BC3E5}|Assembly-CSharp.csproj|D:\\Repositories\\NexSpaceVR\\assets\\scripts\\cameramanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,11 +26,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "CarManager.cs",
               "DocumentMoniker": "D:\\Repositories\\NexSpaceVR\\Assets\\Scripts\\CarManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CarManager.cs",
@@ -43,29 +43,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "BuildingSpawner.cs",
               "DocumentMoniker": "D:\\Repositories\\NexSpaceVR\\Assets\\Scripts\\BuildingSpawner.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\BuildingSpawner.cs",
               "ToolTip": "D:\\Repositories\\NexSpaceVR\\Assets\\Scripts\\BuildingSpawner.cs",
               "RelativeToolTip": "Assets\\Scripts\\BuildingSpawner.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwC8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-27T14:35:59.32Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "InfiniteRoadManager.cs",
               "DocumentMoniker": "D:\\Repositories\\NexSpaceVR\\Assets\\Scripts\\InfiniteRoadManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\InfiniteRoadManager.cs",
               "ToolTip": "D:\\Repositories\\NexSpaceVR\\Assets\\Scripts\\InfiniteRoadManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\InfiniteRoadManager.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAuwC0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAuwC0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T14:35:30.26Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-27T14:35:30.26Z"
             },
             {
               "$type": "Document",
