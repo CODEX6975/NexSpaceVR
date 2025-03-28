@@ -4,10 +4,20 @@ public class CarManager : MonoBehaviour
 {
     public GameObject carPrefab;  // Assign the Car prefab in the Inspector
     private GameObject carInstance;
+    public float carSpeed = 5f;  // Set this to control car's movement speed
 
     void Start()
     {
         SpawnCar();
+    }
+
+    void Update()
+    {
+        if (carInstance != null)
+        {
+            // Move the car backward along the Z-axis (negative direction)
+            carInstance.transform.position += new Vector3(0, 0, -carSpeed * Time.deltaTime);
+        }
     }
 
     void SpawnCar()
@@ -19,9 +29,15 @@ public class CarManager : MonoBehaviour
         }
 
         Debug.Log("Spawning car: " + carPrefab.name);
-        carInstance = Instantiate(carPrefab, Vector3.zero, Quaternion.identity);
 
-        // Optional: Parent the XR Rig to the new car instance
+        // Position the car just above the road (y = 1.5)
+        carInstance = Instantiate(carPrefab, new Vector3(0, 1.5f, 0), Quaternion.identity);
+
+        // Rotate the entire car prefab to face the negative Z-direction (backwards)
+        // This rotates the whole car to face negative Z (backwards)
+        carInstance.transform.rotation = Quaternion.Euler(0, 0, 0);  // Rotate 180 degrees on the Y-axis to face -Z
+
+        // Optional: Parent the XR Rig to the new car instance (if applicable)
         Transform xrRig = carInstance.transform.Find("XR Rig");
         if (xrRig != null)
         {

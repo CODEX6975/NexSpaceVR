@@ -128,7 +128,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 361199890}
-  - component: {fileID: 361199889}
+  - component: {fileID: 361199891}
   m_Layer: 0
   m_Name: CarManager
   m_TagString: Untagged
@@ -136,19 +136,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &361199889
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 361199888}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dd31c1dc784eb7e4fa2526df7f316a57, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  carPrefab: {fileID: 2894492526800423023, guid: 4eed8afe93a0c8645853d3e596723258, type: 3}
 --- !u!4 &361199890
 Transform:
   m_ObjectHideFlags: 0
@@ -164,6 +151,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &361199891
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 361199888}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd31c1dc784eb7e4fa2526df7f316a57, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  carPrefab: {fileID: 2894492526800423023, guid: 4eed8afe93a0c8645853d3e596723258, type: 3}
+  carSpeed: 5
 --- !u!1 &410087039
 GameObject:
   m_ObjectHideFlags: 0
@@ -365,6 +366,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   roadPrefab: {fileID: 1697022397643394182, guid: 15484e19fed87e3488a2870e9f956e67, type: 3}
   player: {fileID: 8393008774245468623, guid: 4eed8afe93a0c8645853d3e596723258, type: 3}
+  roadLength: 20
+  spawnOffset: 5
 --- !u!4 &1010962602
 Transform:
   m_ObjectHideFlags: 0
