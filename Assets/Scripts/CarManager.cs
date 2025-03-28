@@ -1,11 +1,31 @@
 using UnityEngine;
 
-public class CarMover : MonoBehaviour
+public class CarManager : MonoBehaviour
 {
-    public float speed = 10f;  // Adjust speed as needed
+    public GameObject carPrefab;  // Assign the Car prefab in the Inspector
+    private GameObject carInstance;
 
-    void Update()
+    void Start()
     {
-        transform.Translate(Vector3.forward * speed * Time.deltaTime);
+        SpawnCar();
+    }
+
+    void SpawnCar()
+    {
+        if (carPrefab == null)
+        {
+            Debug.LogError("Car prefab is missing! Assign it in the Inspector.");
+            return;  // Stop execution to prevent the error
+        }
+
+        Debug.Log("Spawning car: " + carPrefab.name);
+        carInstance = Instantiate(carPrefab, Vector3.zero, Quaternion.identity);
+
+        // Optional: Parent the XR Rig to the new car instance
+        Transform xrRig = carInstance.transform.Find("XR Rig");
+        if (xrRig != null)
+        {
+            xrRig.SetParent(carInstance.transform);
+        }
     }
 }
