@@ -3,24 +3,20 @@
   "WorkspaceRootPath": "D:\\Repositories\\NexSpaceVR\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{75701607-AF8C-BFFC-B092-2DBE772BC3E5}|Assembly-CSharp.csproj|d:\\repositories\\nexspacevr\\assets\\scripts\\new folder\\buildingspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{75701607-AF8C-BFFC-B092-2DBE772BC3E5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\new folder\\buildingspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{75701607-AF8C-BFFC-B092-2DBE772BC3E5}|Assembly-CSharp.csproj|d:\\repositories\\nexspacevr\\assets\\scripts\\buildingspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75701607-AF8C-BFFC-B092-2DBE772BC3E5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\buildingspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{75701607-AF8C-BFFC-B092-2DBE772BC3E5}|Assembly-CSharp.csproj|d:\\repositories\\nexspacevr\\assets\\scripts\\new folder\\endlessroadmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{75701607-AF8C-BFFC-B092-2DBE772BC3E5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\new folder\\endlessroadmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{75701607-AF8C-BFFC-B092-2DBE772BC3E5}|Assembly-CSharp.csproj|d:\\repositories\\nexspacevr\\assets\\scripts\\endlessroadmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75701607-AF8C-BFFC-B092-2DBE772BC3E5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\endlessroadmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{75701607-AF8C-BFFC-B092-2DBE772BC3E5}|Assembly-CSharp.csproj|d:\\repositories\\nexspacevr\\assets\\scripts\\cameramanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{75701607-AF8C-BFFC-B092-2DBE772BC3E5}|Assembly-CSharp.csproj|d:\\repositories\\nexspacevr\\assets\\scripts\\carcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75701607-AF8C-BFFC-B092-2DBE772BC3E5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\carcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75701607-AF8C-BFFC-B092-2DBE772BC3E5}|Assembly-CSharp.csproj|D:\\Repositories\\NexSpaceVR\\assets\\scripts\\cameramanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{75701607-AF8C-BFFC-B092-2DBE772BC3E5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cameramanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{75701607-AF8C-BFFC-B092-2DBE772BC3E5}|Assembly-CSharp.csproj|d:\\repositories\\nexspacevr\\assets\\scripts\\carmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{75701607-AF8C-BFFC-B092-2DBE772BC3E5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\carmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{75701607-AF8C-BFFC-B092-2DBE772BC3E5}|Assembly-CSharp.csproj|d:\\repositories\\nexspacevr\\assets\\scripts\\roadmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{75701607-AF8C-BFFC-B092-2DBE772BC3E5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\roadmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,71 +26,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "RoadManager.cs",
-              "DocumentMoniker": "D:\\Repositories\\NexSpaceVR\\Assets\\Scripts\\RoadManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\RoadManager.cs",
-              "ToolTip": "D:\\Repositories\\NexSpaceVR\\Assets\\Scripts\\RoadManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\RoadManager.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "BuildingSpawner.cs",
+              "DocumentMoniker": "D:\\Repositories\\NexSpaceVR\\Assets\\Scripts\\BuildingSpawner.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\BuildingSpawner.cs",
+              "ToolTip": "D:\\Repositories\\NexSpaceVR\\Assets\\Scripts\\BuildingSpawner.cs",
+              "RelativeToolTip": "Assets\\Scripts\\BuildingSpawner.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAYwFgAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T09:40:54.74Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CarManager.cs",
-              "DocumentMoniker": "D:\\Repositories\\NexSpaceVR\\Assets\\Scripts\\CarManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\CarManager.cs",
-              "ToolTip": "D:\\Repositories\\NexSpaceVR\\Assets\\Scripts\\CarManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\CarManager.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T09:40:51.82Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CameraManager.cs",
-              "DocumentMoniker": "D:\\Repositories\\NexSpaceVR\\Assets\\Scripts\\CameraManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\CameraManager.cs",
-              "ToolTip": "D:\\Repositories\\NexSpaceVR\\Assets\\Scripts\\CameraManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\CameraManager.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T09:40:48.417Z",
+              "WhenOpened": "2025-04-24T09:52:37.862Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "EndlessRoadManager.cs",
-              "DocumentMoniker": "D:\\Repositories\\NexSpaceVR\\Assets\\Scripts\\New Folder\\EndlessRoadManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\New Folder\\EndlessRoadManager.cs",
-              "ToolTip": "D:\\Repositories\\NexSpaceVR\\Assets\\Scripts\\New Folder\\EndlessRoadManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\New Folder\\EndlessRoadManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAABCAAAAAAAAAA==",
+              "DocumentMoniker": "D:\\Repositories\\NexSpaceVR\\Assets\\Scripts\\EndlessRoadManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\EndlessRoadManager.cs",
+              "ToolTip": "D:\\Repositories\\NexSpaceVR\\Assets\\Scripts\\EndlessRoadManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\EndlessRoadManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T09:37:52.271Z",
+              "WhenOpened": "2025-04-24T09:53:01.625Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "BuildingSpawner.cs",
-              "DocumentMoniker": "D:\\Repositories\\NexSpaceVR\\Assets\\Scripts\\New Folder\\BuildingSpawner.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\New Folder\\BuildingSpawner.cs",
-              "ToolTip": "D:\\Repositories\\NexSpaceVR\\Assets\\Scripts\\New Folder\\BuildingSpawner.cs",
-              "RelativeToolTip": "Assets\\Scripts\\New Folder\\BuildingSpawner.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAQwBwAAABNAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "CarController.cs",
+              "DocumentMoniker": "D:\\Repositories\\NexSpaceVR\\Assets\\Scripts\\CarController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CarController.cs",
+              "ToolTip": "D:\\Repositories\\NexSpaceVR\\Assets\\Scripts\\CarController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CarController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T09:37:21.301Z",
+              "WhenOpened": "2025-04-24T09:53:00.168Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CameraManager.cs",
+              "DocumentMoniker": "D:\\Repositories\\NexSpaceVR\\Assets\\Scripts\\CameraManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CameraManager.cs",
+              "ToolTip": "D:\\Repositories\\NexSpaceVR\\Assets\\Scripts\\CameraManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CameraManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T09:40:48.417Z",
               "EditorCaption": ""
             }
           ]

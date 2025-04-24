@@ -220,7 +220,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 244570754}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 50}
   m_LocalScale: {x: 10, y: 0.2, z: 50}
   m_ConstrainProportionsScale: 0
@@ -295,52 +295,6 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 395038063}
   m_SourcePrefab: {fileID: 100100000, guid: 4eed8afe93a0c8645853d3e596723258, type: 3}
---- !u!1 &361199888
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 361199890}
-  - component: {fileID: 361199891}
-  m_Layer: 0
-  m_Name: CarManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!4 &361199890
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 361199888}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -16.523993, y: -20.00776, z: 71.83454}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &361199891
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 361199888}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dd31c1dc784eb7e4fa2526df7f316a57, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  carPrefab: {fileID: 2894492526800423023, guid: 4eed8afe93a0c8645853d3e596723258, type: 3}
-  carSpeed: 5
 --- !u!1 &395038062 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2894492526800423023, guid: 4eed8afe93a0c8645853d3e596723258, type: 3}
@@ -584,52 +538,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1010962600
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1010962602}
-  - component: {fileID: 1010962601}
-  m_Layer: 0
-  m_Name: RoadManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!114 &1010962601
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1010962600}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ace74e2d4e86b6946939539eb104ab47, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  roadPrefab: {fileID: 1697022397643394182, guid: 15484e19fed87e3488a2870e9f956e67, type: 3}
-  player: {fileID: 8393008774245468623, guid: 4eed8afe93a0c8645853d3e596723258, type: 3}
---- !u!4 &1010962602
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1010962600}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1226697027
 GameObject:
   m_ObjectHideFlags: 0
@@ -639,7 +547,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1226697029}
-  - component: {fileID: 1226697028}
   - component: {fileID: 1226697030}
   m_Layer: 0
   m_Name: BuildingSpawner
@@ -648,18 +555,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1226697028
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1226697027}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 94857bf4503c3d04a89dc0e05f3da1a0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &1226697029
 Transform:
   m_ObjectHideFlags: 0
@@ -695,16 +590,15 @@ MonoBehaviour:
   - {fileID: 919132149155446097, guid: 6c635c96a8b954547afd13c3ea6bf2ea, type: 3}
   - {fileID: 919132149155446097, guid: 5a5e22d7c9db35a4e940a9cb8d729b63, type: 3}
   - {fileID: 919132149155446097, guid: 22f061859ee3c834fa44335e812672e6, type: 3}
-  - {fileID: 919132149155446097, guid: 9b007a1e07cdfbe41a2199550b2ce33c, type: 3}
   - {fileID: 919132149155446097, guid: 55f65011f02a7e84486a0eb152d9d057, type: 3}
+  sideOffset: 15
+  minDistance: 10
+  maxDistance: 20
+  buildingsPerSegment: 2
   roadSegments:
   - {fileID: 1370750489}
   - {fileID: 244570758}
   - {fileID: 1862602101}
-  minDistance: 10
-  maxDistance: 20
-  sideOffset: 15
-  buildingsPerSegment: 3
 --- !u!1 &1370750485
 GameObject:
   m_ObjectHideFlags: 0
@@ -927,8 +821,6 @@ SceneRoots:
   m_Roots:
   - {fileID: 410087041}
   - {fileID: 832575519}
-  - {fileID: 1010962602}
-  - {fileID: 361199890}
   - {fileID: 1370750489}
   - {fileID: 244570758}
   - {fileID: 1862602101}
